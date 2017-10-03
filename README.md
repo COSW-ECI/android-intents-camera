@@ -1,6 +1,6 @@
 # Android Intents: Camera, Activities and Fragments #
 
-###Part 1: Intents, camera and images 
+### Part 1: Intents, camera and images 
 
 Create a form that captures a text field and a picture. The picture could be captured using the device's camera or selected from the images stored on the device. In order to give the options to the user you should use a single choice AlertDialog. 
 
@@ -26,7 +26,7 @@ Once the user selects an image it should be displayed in the form (as shown on t
 
 
 
-####Form Validation Criteria:
+#### Form Validation Criteria:
 
 * If the text is empty and no image is selected the following message should be displayed to the user “Please enter either a message or select an image”.
 * The text field should have a length longer than 50 characters.
@@ -34,7 +34,7 @@ Once the user selects an image it should be displayed in the form (as shown on t
 Note: You can use the method setError method of the EditText object to display the error message to the user.
       
 
-###Part 2: Activities Intents
+### Part 2: Activities Intents
        
 1) Create a POJO that represents a Post that will contain the data captured in the form (message and imageUri). Make sure the Post class implements the Serializable interface.
 
@@ -50,7 +50,7 @@ This documentation will help you:
 https://developer.android.com/training/basics/firstapp/starting-activity.html
 
        
-###Part 3: Using Fragments
+### Part 3: Using Fragments
 
 1) Create a Fragment called *NewPostFragment*. This should extend the class support Fragment and contain the same layout and code that you have in the MainActivity to handles the form that captures the photo and a message.
 
