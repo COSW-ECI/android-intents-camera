@@ -42,7 +42,7 @@ Note: You can use the method setError method of the EditText object to display t
 
 3) Create a method that handles the save button onClick event. This method should first trigger the form validation and if the validation is correct then: 
 * Create a new intent for the PostActivity created before.
-* Create a Bundle object and add the Post object created to this bundle, then add the bundle to intent as extras.
+* Create a Bundle object and add the Post object created to this bundle, then add the bundle to the intent as extras.
 * Start the new activity using the intent.
 
 This documentation will help you:
@@ -52,7 +52,7 @@ https://developer.android.com/training/basics/firstapp/starting-activity.html
        
 ### Part 3: Using Fragments
 
-1) Create a Fragment called *NewPostFragment*. This should extend the class support Fragment and contain the same layout and code that you have in the MainActivity to handles the form that captures the photo and a message.
+1) Create a Fragment called *NewPostFragment*. This should extend the class Support Fragment and contain the same layout and code that you have in the MainActivity to handle the form that captures the photo and a message.
 
 2) Modify the layout of the main activity to have only a Framelayout that fills all the space and has the id *fragment_container*
 
@@ -77,4 +77,6 @@ https://developer.android.com/training/basics/firstapp/starting-activity.html
 
 ```
      
- 5) Modify the MainActivity so when you click on save you show the *PostFragment*    
+ 5) Modify the MainActivity so when you click on save you show the *PostFragment* 
+ 
+ 6) Verify that the App works as before when you had only activities.
