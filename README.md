@@ -24,7 +24,7 @@ Create a form that captures a text field and a picture. The picture could be cap
 
 Once the user selects an image it should be displayed in the form (as shown on the screenshot as the Android icon).
 
-
+![Alt text](https://github.com/COSW-ECI/android-intents-camera/blob/master/form.png)
 
 #### Form Validation Criteria:
 
